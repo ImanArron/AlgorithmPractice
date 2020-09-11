@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="47A2D15B-C917-4203-B65A-ACAE1EC48DF6">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="682.938049,594.554138" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>数据结构和算法</String>
+            <ConnectedNoteIDs>1, 21, 23, 25, 27, 29, 38, 55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="471.73288,169.758392" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>复杂度分析</String>
+            <ConnectedNoteIDs>0, 2-3, 9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="311.972656,91.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>时间复杂度</String>
+            <ConnectedNoteIDs>1, 4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="381.68222,379.784821" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>空间复杂度</String>
+            <ConnectedNoteIDs>1, 14-15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="246.039062,91.464844" Width="33.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+            </Appearance>
+            <String>分析</String>
+            <ConnectedNoteIDs>2, 5-8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="149.785156,36.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最好</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="149.792969,75.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最坏</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="149.792969,105.625" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>平均</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="149.792969,142.78125" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>均摊</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="297.105469,257.183594" Width="94.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+            </Appearance>
+            <String>常见时间复杂度</String>
+            <ConnectedNoteIDs>1, 10-13, 16-17, 20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="59.222656,180.046875" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(1) Hashmap</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="26.625,228.308594" Width="178.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(log n) 二分查找、二叉搜索树</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="13.558594,256.488281" Width="209.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(n) 树的遍历、链表遍历、数组遍历</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="48.683594,294.773438" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(n^2) 双重循环</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="238.515121,375.049774" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(1) 原地操作</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="231.736267,442.151672" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(n) 开辟线性空间</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="4.941406,330.339844" Width="165.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>归并、快排、堆排序 O(log n)</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="19.0,374.953125" Width="183.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>冒泡、插入、选择、希尔 O(n^2)</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="63.074219,443.734375" Width="146.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>基数、计数、桶排序 O(n)</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="445.5,533.253906" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>字符串匹配</String>
+            <ConnectedNoteIDs>0, 22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="102.085938,534.222656" Width="298.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>朴素、RK、BM、KMP、Tire、AC自动机、后缀数组</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="488.508698,628.849854" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>查找</String>
+            <ConnectedNoteIDs>0, 24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="160.0,629.0" Width="237.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>线性表查找、树结构查找、散列表查找</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="464.0,710.765625" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>搜索</String>
+            <ConnectedNoteIDs>0, 26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="135.871094,711.0" Width="255.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>深度优先搜索、广度优先搜索、A*启发式搜索</String>
+            <ConnectedNoteIDs>25</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="459.78598,793.415283" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>算法思想</String>
+            <ConnectedNoteIDs>0, 28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="84.079094,792.14801" Width="309.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>贪心算法、分治算法、动态规划、回溯算法、枚举算法</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="479.567719,895.472595" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>其他</String>
+            <ConnectedNoteIDs>0, 30-32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="327.467377,841.827515" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>位运算</String>
+            <ConnectedNoteIDs>29, 33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="323.318024,904.495361" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>布隆过滤器</String>
+            <ConnectedNoteIDs>29, 34-36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="327.961609,984.995178" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>LRU Cache</String>
+            <ConnectedNoteIDs>29, 37</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="158.0,838.391968" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>常见位运算公式</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="112.725975,874.806274" Width="176.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>多个 hash 函数映射到多个位上</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="141.575882,906.887695" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>不存在 100% 准确</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="130.587082,934.496338" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>存在不一定真的准确</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="148.709167,982.411011" Width="108.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>散列表 + 双向链表</String>
+            <ConnectedNoteIDs>32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="800.756348,182.077438" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>存储结构</String>
+            <ConnectedNoteIDs>0, 39-40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="880.220703,116.051842" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>顺序存储</String>
+            <ConnectedNoteIDs>38, 41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="885.13208,250.910065" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>链式存储</String>
+            <ConnectedNoteIDs>38, 45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="994.0,115.163094" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>数组</String>
+            <ConnectedNoteIDs>39, 42-44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1073.6604,60.216682" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(1) 随机访问</String>
+            <ConnectedNoteIDs>41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="1070.63501,111.874672" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(n) 插入、删除</String>
+            <ConnectedNoteIDs>41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1082.340454,153.362961" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>可缓存加速</String>
+            <ConnectedNoteIDs>41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="985.0,249.662415" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>链表</String>
+            <ConnectedNoteIDs>40, 46, 49, 51, 53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="1058.0,209.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>单向链表</String>
+            <ConnectedNoteIDs>45, 47-48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="1155.821045,183.870392" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(n) 查找 </String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="1148.568359,225.520432" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O(1) 插入、删除</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="1059.0,268.0" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>双向链表</String>
+            <ConnectedNoteIDs>45, 50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="1145.0,271.0" Width="219.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>每个节点多一个指向前一节点的指针</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="1068.297852,321.995697" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>循环链表</String>
+            <ConnectedNoteIDs>45, 52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="1165.679565,324.357208" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>尾节点指针指向头节点</String>
+            <ConnectedNoteIDs>51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1063.623291,377.664734" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>静态链表</String>
+            <ConnectedNoteIDs>45, 54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="1166.470459,376.643799" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>用数组描述的链表</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="784.102051,684.930847" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>逻辑结构</String>
+            <ConnectedNoteIDs>0, 56-57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="849.639282,553.679077" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>线性结构</String>
+            <ConnectedNoteIDs>55, 58, 63</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="873.521912,989.933167" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>非线性结构</String>
+            <ConnectedNoteIDs>55, 71, 74, 92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="980.0,495.0" Width="21.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>栈</String>
+            <ConnectedNoteIDs>56, 59-62</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="1067.447388,446.094727" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>后进先出</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="1058.517822,481.854126" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>浏览器前进后退</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="1077.761719,517.719238" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>括号匹配</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="1079.887573,554.716553" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>表达式计算</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="984.360352,629.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>队列</String>
+            <ConnectedNoteIDs>56, 65, 67, 69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="1219.681152,581.693604" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>先进先出</String>
+            <ConnectedNoteIDs>65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="1060.0,595.0" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>普通队列</String>
+            <ConnectedNoteIDs>63-64, 66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="1230.0,619.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>LRU</String>
+            <ConnectedNoteIDs>65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="1067.620361,655.0" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>双端队列</String>
+            <ConnectedNoteIDs>63, 68</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="1195.944092,652.619873" Width="168.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>入口、出口都可以入队、出队</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="1066.872681,712.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>优先级队列</String>
+            <ConnectedNoteIDs>63, 70</ConnectedNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="1218.162842,707.0" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>根据优先级出队</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="981.564331,814.569397" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>散列表</String>
+            <ConnectedNoteIDs>57, 72-73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="1072.0,785.0" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>o(1) 插入、删除、查找</String>
+            <ConnectedNoteIDs>71</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="1074.273071,837.020447" Width="324.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>安全加密、唯一标识、数据校验、负载均衡、分布式存储</String>
+            <ConnectedNoteIDs>71</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="957.39447,1095.788818" Width="21.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>树</String>
+            <ConnectedNoteIDs>57, 75, 88, 90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="1038.662231,992.265686" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>二叉树</String>
+            <ConnectedNoteIDs>74, 76, 82</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="1110.679565,917.169495" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>遍历</String>
+            <ConnectedNoteIDs>75, 77-78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="1185.0,883.0" Width="177.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>广度优先(层序遍历，使用队列)</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="1182.0,937.0" Width="160.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>深度优先(优先使用递归)</String>
+            <ConnectedNoteIDs>76, 79-81</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="1372.0,907.0" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>前序</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="1371.942139,940.394287" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>中序</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="1372.217651,967.851379" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>后序</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="1116.8573,1031.531982" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>形态</String>
+            <ConnectedNoteIDs>75, 83, 86-87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="1182.708252,1008.066345" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>平衡二叉树</String>
+            <ConnectedNoteIDs>82, 84-85</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="1298.764648,990.168213" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>红黑树</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="1300.697388,1025.038696" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>AVL树</String>
+            <ConnectedNoteIDs>83</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="1190.679565,1049.474121" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>满二叉树</String>
+            <ConnectedNoteIDs>82</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="1186.404663,1090.786865" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>完全二叉树</String>
+            <ConnectedNoteIDs>82</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="1056.533203,1166.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>多路查找树</String>
+            <ConnectedNoteIDs>74, 89</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="1172.110229,1168.776733" Width="163.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>B树、B+树、2-3树、2-3-4树</String>
+            <ConnectedNoteIDs>88</ConnectedNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="1023.328552,1251.74585" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>堆，一般是完全二叉树，使用数组实现</String>
+            <ConnectedNoteIDs>74, 91</ConnectedNoteIDs>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="1301.593994,1257.092163" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>大顶堆、小顶堆</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="999.394104,1486.702759" Width="21.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>图</String>
+            <ConnectedNoteIDs>57, 93, 96-101</ConnectedNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="1065.0,1323.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>存储</String>
+            <ConnectedNoteIDs>92, 94-95</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="1193.0,1312.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>顺序存储：邻接矩阵</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="95" FontSize="12.0" Position="1195.687622,1349.744019" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>链式存储：邻接表</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="1082.44873,1398.456177" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>拓扑排序</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="1082.0,1438.193604" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最短路径</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="12.0" Position="1082.0,1477.857056" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>关键路径</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="1076.0,1511.911499" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最小生成树</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="1087.406982,1545.135498" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>二分图</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="1091.854614,1585.766113" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>最大流</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>6-7</Stack>
+        <Stack>80-81</Stack>
+    </Stacks>
+    <AutoFit>10, 32, 66</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="F2C2DA20-6261-46B1-B33F-B8E35C8286EA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="CD233B8C-3955-49D1-AB17-728DCC18D531" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="3B23FBBD-0A89-4E78-9143-833E506C3062" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="1BE36994-2E03-4584-95D8-57C2FD053E0E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="EECEF43D-B612-4BA2-A09C-6668DA1E4B0D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="31734905-E045-4AA8-A2EE-5FDBED948149" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="14B8702E-C3EA-4787-A36E-96133C33D48F" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
